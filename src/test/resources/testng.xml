@@ -1,10 +1,10 @@
 <suite name="Suite" parallel="class">
     <listeners >
-        <listener class-name="com.example.AlterListener" />
+<!--        <listener class-name="com.example.AlterListener" />-->
     </listeners>
     <test name="Test">
-<!--        <classes>-->
-<!--            <class name="com.example.AlterListener" />-->
-<!--        </classes>-->
+        <classes>
+            <class name="com.example.TechAPITestNG" />
+        </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
